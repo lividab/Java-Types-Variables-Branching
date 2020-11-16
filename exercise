@@ -1,0 +1,19 @@
+ 
+public class myCompany {
+	String name;
+	String position;
+	int age;
+	int salary;
+
+public myCompany(String name, String position, int age, int salary) {
+	name = "Ariel";
+	position = "President";
+	age = 42;
+	salary = 124000;
+}
+
+public void employee() {
+	System.out.print(name);
+	System.out.print(age);
+}
+}
